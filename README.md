@@ -23,25 +23,32 @@ Este projeto é um **sistema de recomendação** que permite ao usuário fazer u
 2. Instale as dependências necessárias. Você pode usar `pip` para instalar as bibliotecas:
 
    bash
+
    pip install requests matplotlib
 
 Configuração da API
+
 Registre-se em Pexels e obtenha sua chave de API.
 
 Substitua a chave de API no código:
+
 PEXELS_API_KEY = 'YOUR_PEXELS_API_KEY'  # Substitua pela sua chave da Pexels
 
 Execução do Projeto
+
 Clone o repositório para o seu ambiente local:
 
 git clone https://github.com/Cris-noscore/Sistema-de-recomendacao-por-imagens.git
+
 cd Sistema-de-recomendacao-por-imagens
 
 Inicie o script em Python:
+
 python seu_script.py
 
 Carregue uma imagem quando solicitado. O sistema buscará imagens semelhantes e as exibirá.
 
 Exemplo de Uso
+
 Após carregar a imagem, o sistema pode buscar por imagens semelhantes e você verá a imagem carregada junto com as imagens recomendadas da API do Pexels.
    
